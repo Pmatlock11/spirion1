@@ -60,7 +60,7 @@ get_header();
             </div>
         </div>
 
-        <div class="tabs_section with_bg discovery">
+        <div class="tabs_section with_bg discovery auto_switch">
             <div class="container-fluid">
                 <div class="row tabbing_row">
                     <div class="col-sm-3 tabset_col">
@@ -180,7 +180,7 @@ get_header();
                     </div>
                 </div>
                 <div class="row center_blocks">
-                    <div class="col-sm-3">
+                    <div class="col-12 col-sm-3">
                         <div class="col_holder">
                             <div class="col_header">
                                 <span>1</span>
@@ -193,7 +193,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-12 col-sm-3">
                         <div class="col_holder">
                             <div class="col_header">
                                 <span>2</span>
@@ -206,7 +206,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-12 col-sm-3">
                         <div class="col_holder">
                             <div class="col_header">
                                 <span>3</span>

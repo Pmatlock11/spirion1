@@ -158,9 +158,16 @@ $container = get_theme_mod('understrap_container_type');
         else
             jQuery('.auto_tabs li:first-child').addClass('active');
         setTimeout(autoAddClass, 3000);
-        jQuery('.tab').removeClass('active');
+        jQuery('.auto_switch .tab').removeClass('active');
         var curr_tab = jQuery('.auto_tabs li.active').find('a').attr('href');
         jQuery(curr_tab).addClass('active');
+    }
+
+    var win_width = jQuery(window).width();
+    if (jQuery(win_width < 768)) {
+        jQuery('#wrapper-footer .col_holder').find('strong').click(function() {
+            jQuery(this).closest('.col_holder').find('ul').slideToggle();
+        });
     }
 </script>
 <?php wp_footer(); ?>

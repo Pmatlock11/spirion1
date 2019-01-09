@@ -201,7 +201,7 @@ get_header();
                     </div>
                 </div>
                 <div class="row center_blocks">
-                    <div class="col-sm-3">
+                    <div class="col-12 col-sm-3">
                         <div class="col_holder">
                             <div class="col_header">
                                 <span>1</span>
@@ -214,7 +214,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-12 col-sm-3">
                         <div class="col_holder">
                             <div class="col_header">
                                 <span>2</span>
@@ -227,7 +227,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-12 col-sm-3">
                         <div class="col_holder">
                             <div class="col_header">
                                 <span>3</span>
@@ -306,7 +306,7 @@ get_header();
 <div class="articles">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-3 col-6">
+            <div class="col-12 col-sm-3 col-6 article_box">
                 <img src="<?php bloginfo('template_url'); ?>/img/img9.png" class="max_width">
                 <div class="txt">
                     <span class="date">Date</span>
@@ -314,7 +314,7 @@ get_header();
                     <p>Lorem ipsum dolor sit amet, consectetur adipscing elit. In ut velit lectus.</p>
                 </div>
             </div>
-            <div class="col-12 col-sm-3 col-6">
+            <div class="col-12 col-sm-3 col-6 article_box">
                 <img src="<?php bloginfo('template_url'); ?>/img/img9.png" class="max_width">
                 <div class="txt">
                     <span class="date">Date</span>
@@ -322,7 +322,7 @@ get_header();
                     <p>Lorem ipsum dolor sit amet, consectetur adipscing elit. In ut velit lectus.</p>
                 </div>
             </div>
-            <div class="col-12 col-sm-3 col-6">
+            <div class="col-12 col-sm-3 col-6 article_box">
                 <img src="<?php bloginfo('template_url'); ?>/img/img9.png" class="max_width">
                 <div class="txt">
                     <span class="date">Date</span>
@@ -330,7 +330,7 @@ get_header();
                     <p>Lorem ipsum dolor sit amet, consectetur adipscing elit. In ut velit lectus.</p>
                 </div>
             </div>
-            <div class="col-12 col-sm-3 col-6">
+            <div class="col-12 col-sm-3 col-6 article_box">
                 <img src="<?php bloginfo('template_url'); ?>/img/img9.png" class="max_width">
                 <div class="txt">
                     <span class="date">Date</span>

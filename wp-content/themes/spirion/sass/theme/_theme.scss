@@ -374,6 +374,7 @@ input:focus {
 .center_blocks {
     align-items: center;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .get_started {
@@ -1694,6 +1695,7 @@ img.bio_photo {
 }
 
 .lg_none {
+    text-align: center;
     display: none;
 }
 
@@ -1711,7 +1713,11 @@ img.bio_photo {
     }
 
     .get_started .col_holder {
-        max-width: 90%;
+        max-width: none;
+
+        .btn-primary {
+            width: 100%;
+        }
     }
 
     .how_works .title {
@@ -1978,7 +1984,7 @@ img.bio_photo {
     }
 
     .tabset_col {
-        padding-left: 26px;
+        padding-left: 36px;
     }
 
     .search_content ul {
@@ -1988,9 +1994,57 @@ img.bio_photo {
     .search_form {
         margin: 20px auto;
     }
+
+    .tabbing_row .img_holder {
+        display: none;
+    }
+
+    .auto_switch {
+        .tabs li {
+            padding-left: 35px;
+        }
+    }
+
+    .tabs_section .twocols .text_col iframe {
+        width: 100%;
+        height: 151px;
+    }
+
+    .center_blocks {
+        .col-sm-3 {
+            flex: 33%;
+            max-width: 33.3%;
+        }
+    }
+
+    .post_col .holder {
+        width: 100%;
+
+        .post_hover {
+            font-size: 14px;
+        }
+    }
+
 }
 
 @media only screen and (max-width:767px) {
+    .tabs_section .twocols .text_col iframe {
+        height: 191px;
+    }
+
+    .banner iframe {
+        width: 490px;
+        height: 294px;
+    }
+
+    .tabs li {
+        margin: 0 0 43px;
+
+        &.active:after {
+            top: -3px;
+        }
+    }
+
     .nav_opener {
         position: absolute;
         top: 16px;
@@ -2314,6 +2368,28 @@ img.bio_photo {
     .search_content ul {
         padding: 10px 0 0;
     }
+
+    #wrapper-footer {
+        .row {
+            display: block;
+        }
+
+        .col-12 {
+            width: 100% !important;
+            max-width: none;
+        }
+
+        strong {
+            text-align: center;
+        }
+
+
+        ul {
+            text-align: left;
+        }
+    }
+
+
 }
 
 @media only screen and (max-width:575px) {
@@ -2499,6 +2575,14 @@ img.bio_photo {
         overflow: hidden;
     }
 
+    .article_box {
+        display: none;
+
+        &:first-child {
+            display: block;
+        }
+    }
+
     .how_works {
         .txt {
 
@@ -2517,11 +2601,16 @@ img.bio_photo {
         }
     }
 
-    #wrapper-footer {
-        text-align: center;
+    .banner iframe {
+        max-width: 280px;
+        height: 158px;
+        width: auto;
+    }
 
-        ul {
-            text-align: left;
+    .center_blocks {
+        .col-sm-3 {
+            flex: 100%;
+            max-width: none;
         }
     }
 }
