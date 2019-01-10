@@ -1,0 +1,39 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  color: $links-color;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h3 {
+  width: 100%;
+  padding: 0 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  line-height: 31px;
+  color: $darkest-blue;
+  position: relative;
+
+  &:after {
+    width: 51px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    background: $darkest-blue;
+  }
+}
